@@ -1,0 +1,217 @@
+#navtxt {
+    color:white;
+}
+.background {
+    background-color: #F8E4C3;
+}
+.navtxt {
+    background-color: #FFD700;
+    color: #4B2E1E !important;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.button {
+    background-color: #FFD700 ;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: black;
+    color: white;
+}
+.dropdown-menu {
+    background-color: #3E3E3E !important;
+}
+.dropdown-menu .dropdown-item {
+    color: #FFD700;
+}
+#brand {
+    font-family: 'Amatic SC', sans-serif;
+    font-size:xx-large;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+a {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.background-img {
+    background-image: url('closeup-shot-barbequed-meat-glass-wine-near-fireplace.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding-left: 100px; /* Space on left */
+    padding-right: 100px; /* Space on right */
+    min-height: 100vh; /* Full screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.background-img div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.div {
+    display:grid;
+    grid-template-columns:1fr 3fr 1fr ;
+    grid-template-rows: 100%;
+}
+.brand {
+    background-color: #FFD700;
+    color: #4B2E1E !important;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#brand-2 {
+    font-family: 'Amatic SC', sans-serif;
+    font-size:150px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.h2 {
+    font-family: "Raleway", sans-serif;
+    font-size:70px !important;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color:#FFD700 !important;
+}
+.footer {
+    background-color: #3E3E3E;
+    padding: 20px 0;
+    color: #FFD700;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 40px;
+}
+
+.footer .social-icons {
+    margin-top: 10px;
+}
+
+.footer .social-icons a {
+    color: #FFD700;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.footer .social-icons a:hover {
+    color: #FFA500;
+}
+.grid {
+    display:grid;
+    grid-template-columns: 400px 1fr 400px 1fr 400px;
+    grid-template-rows: 1fr 1fr 100px 1fr 1fr;
+}
+.item-1 {
+    grid-column-start:1;
+    grid-row-start: 2;
+    background-color: #FFD700;
+    color: #4B2E1E !important;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.item-2 {
+    grid-column-start:3;
+    grid-row-start: 2;
+    background-color: #FFD700;
+    color: #4B2E1E !important;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.item-3 {
+    grid-column-start:5;
+    grid-row-start: 2;
+    background-color: #FFD700;
+    color: #4B2E1E !important;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.item-4 {
+    grid-column-start:1;
+    grid-row-start: 4;
+    background-color: #FFD700;
+    color: #4B2E1E !important;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.item-5 {
+    grid-column-start:3;
+    grid-row-start: 4;
+    background-color: #FFD700;
+    color: #4B2E1E !important;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.item-6 {
+    grid-column-start:5;
+    grid-row-start: 4;
+    background-color: #FFD700;
+    color: #4B2E1E !important;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.background-img-2 {
+    background-image: url('closeup-shot-barbequed-meat-glass-wine-near-fireplace.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding-left: 100px; /* Space on left */
+    padding-right: 100px; /* Space on right */
+    min-height: 100vh; /* Full screen height */
+}
+.about {
+    background-color: #FFD700;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.about-txt {
+    color:#3E3E3E;
+}
+#titles {
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color:#4B2E1E;
+    font-size:48px;
+}
+.grid-2 {
+    display:grid;
+    grid-template-columns: 10% 80% 10% ;
+    grid-template-rows: 30% 300px 1fr;
+}
+.item-7 {
+    grid-column-start:2;
+    grid-row-start: 2;
+}
